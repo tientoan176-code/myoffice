@@ -1,0 +1,9 @@
+AI job 
+Cho AI một “phòng riêng”: chạy trong máy ảo, Docker hoặc một user riêng trên máy. Không chạy trên máy chính có dữ liệu khách và tài khoản cá nhân.
+Chỉ mở đúng thư mục dự án. Không để mật khẩu, key thật hay ví crypto trong tầm với của AI.
+Dùng “danh sách cho phép” thay cho bypass. Ví dụ cho tự sửa file (acceptEdits), cho tự chạy vài lệnh an toàn như git status hay npm test, còn xoá, cài đặt, gọi mạng, push thì vẫn phải hỏi Toàn.
+Sao lưu trước khi chạy: dùng git commit hoặc snapshot máy ảo, để hỏng thì quay lại được.
+Tắt hoặc giới hạn mạng nếu việc đó không cần internet.
+Đặt giới hạn chi phí API và giới hạn thời gian chạy.
+Những việc ra bên ngoài vẫn để người duyệt: gửi tin, đăng bài, thanh toán, flash chip.
+Đọc lại nhật ký sau mỗi phiên AI chạy tự động.
